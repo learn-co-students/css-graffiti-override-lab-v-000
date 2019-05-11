@@ -1,1 +1,48 @@
 /* write your override styles here */
+.tag-1 {
+  visibility: hidden;
+}
+#tag-2, #tag-4 {
+  visibility: hidden;
+}
+
+#tag-3 {
+  visibility: hidden;
+}
+
+#tag-5 {
+  visibility: hidden;
+}
+
+#tag-6 {
+  visibility: hidden;
+}
+
+#tag-7 {
+  visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* this seemed to work so I don't understand what the problem is */
+
+
+
+
+
+
+
+
+
