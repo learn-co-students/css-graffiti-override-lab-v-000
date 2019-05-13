@@ -1,1 +1,31 @@
-/* write your override styles here */
+#wall .tag-1, #tag-2, #tag-3, #tag-4, #tag-5, #tag-6, #tag-7 {
+  display: none
+}
+
+#wall .tag-1 {
+  z-index: -1;
+}
+
+div#wall #tag-2 {
+  z-index: -1;
+}
+
+body div#wall #tag-3.slick {
+  z-index: -1;
+}
+
+div#wall #tag-4 {
+  z-index: -1;
+}
+
+body div#wall .parent #tag-5.slick {
+  z-index: -1;
+}
+
+body div#wall div.parent div:last-child div#tag-6 {
+  z-index: -1;
+}
+
+body[data-gr-c-s-loaded="true"] div#wall div.parent div > #tag-7.slick {
+  z-index: -1;
+}
