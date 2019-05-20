@@ -1,1 +1,40 @@
 /* write your override styles here */
+
+/* overriding .tag-1 */
+#wall .tag-1 {
+    display: none;
+  }
+  
+  /* overriding #wall #tag-2 */
+  div#wall div#tag-2 {
+    display: none;
+  }
+  
+  /* div#wall div#tag-2 works because its more specific */
+  /* body #wall #tag-2 works too because it has 
+  more elements and body wraps the div tags */
+  
+  /* overriding div#wall #tag-3.slick  */
+  body div#wall #tag-3.slick {
+    display: none;
+  }
+  
+  /* overriding #wall #tag-4  */
+  body #wall #tag-4 {
+    display: none;
+  }
+  
+  /* overriding div#wall .parent #tag-5.slick  */
+  body div#wall .parent #tag-5.slick {
+    display: none;
+  }
+  
+  /* overriding body div#wall div.parent div:last-child div#tag-6  */
+  body div#wall div.parent div:last-child div#tag-6 {
+    display: none;
+  }
+  
+  /* overriding body div#wall div.parent div > #tag-7.slick  */
+  html body div#wall div.parent div > #tag-7.slick {
+    display: none;
+  }
