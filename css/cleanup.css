@@ -8,3 +8,15 @@ div#wall #tag-2 {
 div#wall #tag-3.slick.wicked {
   display: none;
 }
+div#wall .parent #tag-4 {
+  display: none;
+}
+div#wall .parent + .parent #tag-5.slick {
+  display: none;
+}
+div#wall .parent + .parent div#tag-6 {
+  display: none;
+}
+div#wall .parent + .parent #tag-7.slick {
+  display: none;
+}
