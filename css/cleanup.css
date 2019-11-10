@@ -1,1 +1,34 @@
 /* write your override styles here */
+
+/* Below removes multiple tags, but didn't pass the test because it is checking for file size.
+#wall .parent {
+  display: none;
+}*/
+
+#wall .tag-1 {
+  display: none;
+}
+
+div#wall #tag-2 {
+  display: none;
+}
+
+div#wall #tag-3.slick.wicked {
+  display: none;
+}
+
+div#wall #tag-4 {
+  display: none;
+}
+
+#wall div.parent div#tag-5.slick {
+  display: none;
+}
+
+body div#wall div.parent div:nth-child(2) div#tag-6 {
+  display: none;
+}
+
+body div#wall div.parent div > div#tag-7.slick{
+  display: none;
+}
