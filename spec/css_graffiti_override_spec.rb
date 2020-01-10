@@ -1,3 +1,4 @@
+
 RSpec.describe 'index.html' do
   it 'exists' do
     file = File.exists?("index.html")
