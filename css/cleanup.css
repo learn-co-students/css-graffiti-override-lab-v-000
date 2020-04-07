@@ -32,6 +32,6 @@ body div#wall div.parent div > #tag-7.slick {
   display: none;
 }
 
-body div#wall div.parent div:first-child > div#tag-7.slick {
+body div#wall div.parent:last-of-type div > div#tag-7.slick {
   display: none;
 }
